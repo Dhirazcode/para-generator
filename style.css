@@ -17,7 +17,7 @@ body{
 }
 .conatiner,h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 80vh;
+    width: 40vh;
     /* font-size: 50%; */
     color: white;
     background-color: red;

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+}
+select,button{
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    font: 100 1.3rem Trebuchet MS;
+    border-radius: none;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button{
+    background-color: blueviolet;
+}
