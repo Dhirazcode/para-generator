@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-   width:100%;
+   width:80%;
    min-height: 100vh;
    margin: auto;
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body{
 }
 .conatiner,h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 40vh;
+    width: 80vh;
     /* font-size: 50%; */
     color: white;
     background-color: red;
@@ -27,12 +27,15 @@ body{
     /* width: 12vh; */
     /* height: 6vh; */
     padding: 10px;
+    background-color: blue;
     /* box-sizing: border-box; */
     border: 2px solid green;
-    background-color: rgb(143, 122, 122);
     font-size: 20px;
-    
-
+    cursor: pointer;
+    transition:background-color 0.5s;
+}
+#btn:hover{
+    background-color:gold;
 }
 #wordtype{
     margin: 20px;
