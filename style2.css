@@ -47,4 +47,9 @@ button:hover{
     color:gray;
     margin: 10px;
     padding: 20px;
+    
+}
+.tag:hover{
+    transition: all 0.5s;
+    transform: translateX(-10px);
 }
