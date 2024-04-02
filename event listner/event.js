@@ -15,12 +15,20 @@ clickme.addEventListener("contextmenu",(e)=>{
 box1.addEventListener("mouseover",()=>{
     // welcome.remove();
     box1.style.backgroundColor="cyan";
+    welcome.style.transform="scale(1.1)";
 })
 
 welcome.addEventListener("mousemove",()=>{
    box1.style.backgroundColor="white";
 })
 
-addEventListener("contextmenu",(e)=>{
-    e.preventDefault();
-});
+// addEventListener("contextmenu", (e) => {
+//     e.preventDefault();
+//     console.log("Context menu prevented");
+//     clickme.style.filter="blur(10px)";
+// });
+
+addEventListener("click",(e)=>{
+    console.log(e.clientX);
+    console.log(e.clientY)
+})
