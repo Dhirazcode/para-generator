@@ -8,16 +8,20 @@
 // console.log(mobilelegendheros)
 // mobilelegendheros.quote();
 
-
+// factory function
 function hero(a,b,price){
     const temp = {
         name: a,
         language: b,
-        price: ()=> {
-            console.log(price);
-        },        
+        amount: ()=> {
+            console.log(price.value);
+        },
+        // price:price,        
     };
     return temp;
 }
 const mobilelegends=hero("zilog","nepali",32000);
+const mobilelegend=hero("alfa","hindi",32000);
+
 console.log(mobilelegends);
+console.log(mobilelegend);
