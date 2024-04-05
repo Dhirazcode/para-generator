@@ -29,12 +29,18 @@
 
 
 //constructor finction
-const star=function(name,gender,type) {
-    this.username = name;
-    this.sex= gender;
-    this.role=type;
-}
-const herosofmlbb = new star("zilong","male","fighter");
-const mlbb=new star("darroth","male","fighter");
-console.log(mlbb)
-console.log(herosofmlbb);
+// const Star= 
+// function Star(name,gender,type) {
+//     this.username = name;
+//     this.sex= gender;
+//     this.role=type;
+// }
+// const herosofmlbb = new Star("zilong","male","fighter");
+// const mlbb=new Star("darroth","male","fighter");
+// console.log(mlbb);
+// console.log(herosofmlbb);
+
+//spred operator
+const arr=[1,558,8868,88];
+const newarr=new Array(...arr,speed="120km")
+console.log(...newarr);
