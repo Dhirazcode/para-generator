@@ -17,7 +17,16 @@ class myclass{
     constructor(value1,value2){
         this.#a=value1;
         this.#b=value2;
-        // this.defult="defult";
+        // this.defult="defult";~
+    }
+    get getdata(){
+     return this.#b;   
+    }
+    set setdata(a){
+        this.#a=a;
+    }
+    set setdata1(b){
+        this.#b=b;
     }
     hello(){
         console.log("welcome to my page",this.#a);
@@ -25,4 +34,9 @@ class myclass{
 }
 const obj=new myclass(220,"dhiraj");
 obj.hello();
+console.log(obj.getdata)
 console.log(obj)
+obj.setdata="helloworld";
+obj.setdata1="helloworld!";
+
+console.log(obj);
