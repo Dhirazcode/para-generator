@@ -56,6 +56,7 @@ const fetchdata=(callback)=>{
         game.id="hjfhhf",
         game.name="game 5",
         callback();
+        // console.log(game);
     }, 2000,callback);
     
         
